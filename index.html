@@ -171,20 +171,7 @@ if(currentGrade==4) level="Dificultad: Avanzado 🔴";
 if(currentGrade==5) level="Dificultad: Experto 🔥";
 
 document.getElementById("difficulty").innerText = level;
-if(area === "EPT"){
-    document.getElementById("content").innerHTML = `
-        <h2>Educación para el Trabajo (EPT)</h2>
-        <p>${level}</p>
-        <ul>
-            <li>Emprendimiento</li>
-            <li>Plan de negocio</li>
-            <li>Ofimática</li>
-            <li>Diseño gráfico</li>
-            <li>Programación básica</li>
-            <li>Proyectos productivos</li>
-        </ul>
-    `;
-}
+
 showScreen("content");
 }
 
@@ -212,3 +199,4 @@ document.body.classList.toggle("dark");
 </body>
 
 </html>
+
